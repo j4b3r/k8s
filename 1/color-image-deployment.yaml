@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: color-nginx
-        image: color-nginx:latest
+        image: j4b3r/color-nginx:latest
         env:
         - name: COLOR
           value: "red"
