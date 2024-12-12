@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: color-nginx-service
+  namespace: k8s
+spec:
+  selector:
+    app: color-nginx
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
